@@ -1,6 +1,7 @@
 # OVERVIEW
 --------------------------------------------------
 Implementation of a master thesis at University of Padova. Student: Francesco Romandini. Spervisor: Alberto Testolin.
+
 It is named "A computational investigation on the role of hippocampal sequences in learning spatial representations and informing goal-directed behavior."
 For more info: link available soon
 
