@@ -14,7 +14,7 @@ Other files are specific for a certain context and are distinguished by a C* mar
 
 # GETTING STARTED
 --------------------------------------------------
-Before each simulation, "C*_set_parameters.py" needs to be run after the insertion of desired parameters
+Before each simulation, "C*_set_parameters.py" needs to be run after the insertion of desired parameters.
 It will be created a file called "C*_start_params.pickle" containing parameters data.
 
 Moreover, depending on the context it is possible to specify some extra parameters directly inside the simulation code: "C*_simulation.py".
