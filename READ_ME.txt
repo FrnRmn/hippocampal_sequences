@@ -2,8 +2,8 @@
 ###################################################
 OVERVIEW
 --------------------------------------------------
-This is the implementation of the master thesis of Francesco Romandini, supervised by Alberto Testolin,
-named "A computational investigation on the role of hippocampal sequences in learning spatial representations and informing goal-directed behavior."
+Implementation of a master thesis at University of Padova. Student: Francesco Romandini. Spervisor: Alberto Testolin.
+It is named "A computational investigation on the role of hippocampal sequences in learning spatial representations and informing goal-directed behavior."
 For more info: https://github.com/FrnRmn/hippocampal_sequences
 
 The folder contains the code used to perform simulations in four different contexts.
