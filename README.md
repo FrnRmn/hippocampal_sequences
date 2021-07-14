@@ -1,9 +1,8 @@
 # OVERVIEW
 --------------------------------------------------
 Implementation of a master thesis at University of Padova. Student: Francesco Romandini. Spervisor: Alberto Testolin.
-
-It is named **"A computational investigation on the role of hippocampal sequences in learning spatial representations and informing goal-directed behavior."**
-For more info: link available soon
+Title: **"A computational investigation on the role of hippocampal sequences in learning spatial representations and informing goal-directed behavior."**
+For more info: __link available soon__ or contact me via email at francescoromandini@gmail.com.
 
 The folder contains the code used to perform simulations in four different contexts.
 Some files are shared by all simulations: "agents_dual.py", "environments.py", "lstm_model.py", "utils.py".
