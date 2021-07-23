@@ -1,3 +1,4 @@
+--------------------------------------------------
 # OVERVIEW
 --------------------------------------------------
 Implementation of a master thesis at University of Padova. Student: Francesco Romandini. Spervisor: Alberto Testolin.
@@ -12,7 +13,7 @@ Other files are specific for a certain context and are distinguished by a C* mar
 
 
 
-
+--------------------------------------------------
 # GETTING STARTED
 --------------------------------------------------
 Before each simulation, "C*_set_parameters.py" needs to be run after the insertion of desired parameters.
@@ -23,7 +24,7 @@ More specifically: factors needs to be specificed before class objects initializ
 
 
 
-
+--------------------------------------------------
 # PERFORM SIMULATIONS
 --------------------------------------------------
 The simulation can be performed running the "C*_simulation.py" file.
@@ -31,6 +32,7 @@ It will be printed a log with the average loss measure for each episode.
 At the end, files will be directly saved to a folder named "C*_produced_data".
 
 
+--------------------------------------------------
 # SOME ANTICIPATIONS
 --------------------------------------------------
 A neural network LSTM model generates simulated hippocampal sequences which can inform behavior in a RL framework
