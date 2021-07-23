@@ -31,5 +31,22 @@ It will be printed a log with the average loss measure for each episode.
 At the end, files will be directly saved to a folder named "C*_produced_data".
 
 
+# SOME ANTICIPATIONS
+--------------------------------------------------
+A neural network LSTM model generates simulated hippocampal sequences which can inform behavior in a RL framework
+![alt-text](https://github.com/FrnRmn/images_hippocampal_sequences/blob/101abe171b270936dfdff3d4fc1dadfac1df32e5/model_comp.png)
+
+Backward skewing of place field
+![alt-text](https://github.com/FrnRmn/images_hippocampal_sequences/blob/3dbe87ace45a1630df18f111dddc0f0763fbf1f8/FigRes1.png)
+
+Place fields and Grid fields simulation
+![alt-text](https://github.com/FrnRmn/images_hippocampal_sequences/blob/3dbe87ace45a1630df18f111dddc0f0763fbf1f8/FigRes2.png)
+
+The agent learn to perform a spatial decision task between 8 choice arms
 ![alt-text](https://github.com/FrnRmn/images_hippocampal_sequences/blob/d7aee8770efc0b1e20af232376702b8dc5f4e75e/behavior.gif)
 
+Theta sequences represent alternative future paths
+![alt-text](https://github.com/FrnRmn/images_hippocampal_sequences/blob/101abe171b270936dfdff3d4fc1dadfac1df32e5/theta_part.gif)
+
+SWR sequences represent the path that led the agent to reward in backward order
+![alt-text](https://github.com/FrnRmn/images_hippocampal_sequences/blob/101abe171b270936dfdff3d4fc1dadfac1df32e5/swr.gif)
