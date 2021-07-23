@@ -47,8 +47,8 @@ At the end, files will be directly saved to a folder named "C*_produced_data".
 ### 4) The agent learn to perform a spatial decision task between 8 choice arms
 ![alt-text](https://github.com/FrnRmn/images_hippocampal_sequences/blob/d7aee8770efc0b1e20af232376702b8dc5f4e75e/behavior.gif)
 
-### 5) Theta sequences represent alternative future paths
+### 5) Theta sequences at decision point represent alternative future paths
 ![alt-text](https://github.com/FrnRmn/images_hippocampal_sequences/blob/101abe171b270936dfdff3d4fc1dadfac1df32e5/theta_part.gif)
 
-### 6) SWR sequences represent the path that led the agent to reward in backward order
+### 6) SWR sequences at reward location represent the path that led the agent to reward in backward order
 ![alt-text](https://github.com/FrnRmn/images_hippocampal_sequences/blob/101abe171b270936dfdff3d4fc1dadfac1df32e5/swr.gif)
