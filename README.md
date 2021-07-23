@@ -29,3 +29,7 @@ More specifically: factors needs to be specificed before class objects initializ
 The simulation can be performed running the "C*_simulation.py" file.
 It will be printed a log with the average loss measure for each episode.
 At the end, files will be directly saved to a folder named "C*_produced_data".
+
+
+![alt-text](https://github.com/FrnRmn/images_hippocampal_sequences/blob/d7aee8770efc0b1e20af232376702b8dc5f4e75e/behavior.gif)
+
