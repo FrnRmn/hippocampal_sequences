@@ -1,9 +1,11 @@
-# OVERVIEW
 --------------------------------------------------
+# OVERVIEW
+
 Implementation of a master thesis at University of Padova. Student: Francesco Romandini. Spervisor: Alberto Testolin.
 
-It is named **"A computational investigation on the role of hippocampal sequences in learning spatial representations and informing goal-directed behavior."**
-For more info: link available soon
+Title: **"A computational investigation on the role of hippocampal sequences in learning spatial representations and informing goal-directed behavior."**
+
+For more info: __link available soon__ or contact me via email at francescoromandini@gmail.com.
 
 The folder contains the code used to perform simulations in four different contexts.
 Some files are shared by all simulations: "agents_dual.py", "environments.py", "lstm_model.py", "utils.py".
@@ -11,9 +13,9 @@ Other files are specific for a certain context and are distinguished by a C* mar
 
 
 
-
-# GETTING STARTED
 --------------------------------------------------
+# GETTING STARTED
+
 Before each simulation, "C*_set_parameters.py" needs to be run after the insertion of desired parameters.
 It will be created a file called "C*_start_params.pickle" containing parameters data.
 
@@ -22,9 +24,31 @@ More specifically: factors needs to be specificed before class objects initializ
 
 
 
-
-# PERFORM SIMULATIONS
 --------------------------------------------------
+# PERFORM SIMULATIONS
+
 The simulation can be performed running the "C*_simulation.py" file.
 It will be printed a log with the average loss measure for each episode.
 At the end, files will be directly saved to a folder named "C*_produced_data".
+
+
+--------------------------------------------------
+# SOME ANTICIPATIONS
+
+### 1) A neural network LSTM model generates simulated hippocampal sequences which can inform behavior in a RL framework
+![alt-text](https://github.com/FrnRmn/images_hippocampal_sequences/blob/101abe171b270936dfdff3d4fc1dadfac1df32e5/model_comp.png)
+
+### 2) Backward skewing of place field
+![alt-text](https://github.com/FrnRmn/images_hippocampal_sequences/blob/3dbe87ace45a1630df18f111dddc0f0763fbf1f8/FigRes1.png)
+
+### 3) Place fields and Grid fields simulation
+![alt-text](https://github.com/FrnRmn/images_hippocampal_sequences/blob/3dbe87ace45a1630df18f111dddc0f0763fbf1f8/FigRes2.png)
+
+### 4) The agent learn to perform a spatial decision task between 8 choice arms
+![alt-text](https://github.com/FrnRmn/images_hippocampal_sequences/blob/d7aee8770efc0b1e20af232376702b8dc5f4e75e/behavior.gif)
+
+### 5) Theta sequences at decision point represent alternative future paths
+![alt-text](https://github.com/FrnRmn/images_hippocampal_sequences/blob/101abe171b270936dfdff3d4fc1dadfac1df32e5/theta_part.gif)
+
+### 6) SWR sequences at reward location represent the path that led the agent to reward in backward order
+![alt-text](https://github.com/FrnRmn/images_hippocampal_sequences/blob/101abe171b270936dfdff3d4fc1dadfac1df32e5/swr.gif)
