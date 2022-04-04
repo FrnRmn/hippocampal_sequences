@@ -36,19 +36,22 @@ At the end, files will be directly saved to a folder named "C*_produced_data".
 # SOME ANTICIPATIONS
 
 ### 1) A neural network LSTM model generates simulated hippocampal sequences which can inform behavior in a RL framework
-![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/model_comp.png)
+![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/loop_RL.gif)
 
-### 2) Backward skewing of place field
+### 2) Three different environments
+![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/environments_smaller.gif)
+
+### 3) Backward skewing of place field
 ![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/FigRes1.png)
 
-### 3) Place fields and Grid fields simulation
+### 4) Place fields and Grid fields simulation
 ![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/FigRes2.png)
 
-### 4) The agent learn to perform a spatial decision task between 8 choice arms
+### 5) The agent learn to perform a spatial decision task between 8 choice arms
 ![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/behavior.gif)
 
-### 5) Theta sequences at decision point represent alternative future paths
+### 6) Theta sequences at decision point represent alternative future paths
 ![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/theta_part.gif)
 
-### 6) SWR sequences at reward location represent the path that led the agent to reward in backward order
+### 7) SWR sequences at reward location represent the path that led the agent to reward in backward order
 ![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/swr.gif)
