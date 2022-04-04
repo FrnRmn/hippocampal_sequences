@@ -36,10 +36,10 @@ At the end, files will be directly saved to a folder named "C*_produced_data".
 # SOME ANTICIPATIONS
 
 ### 1) A neural network LSTM model generates simulated hippocampal sequences which can inform behavior in a RL framework
-![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/loop_RL.gif)
+![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/93c6eefd8a0224f09caedbb14645c145cff7a0af/images/loop_RL.gif)
 
 ### 2) Three different environments
-![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/environments_smaller.gif)
+![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/93c6eefd8a0224f09caedbb14645c145cff7a0af/images/environments_smaller.jpg)
 
 ### 3) Backward skewing of place field
 ![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/FigRes1.png)
