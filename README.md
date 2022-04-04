@@ -38,20 +38,20 @@ At the end, files will be directly saved to a folder named "C*_produced_data".
 ### 1) A neural network LSTM model generates simulated hippocampal sequences which can inform behavior in a RL framework
 ![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/93c6eefd8a0224f09caedbb14645c145cff7a0af/images/loop_RL.gif)
 
-### 2) Three different environments
-![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/93c6eefd8a0224f09caedbb14645c145cff7a0af/images/environments_smaller.jpg)
+### 2) Three different simulation environments
+![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/be08525100d42461006141ef5b34f7b6bfeb484e/images/environments_smaller.jpg)
 
-### 3) Backward skewing of place field
+### 3) Backward skewing of place field in environment A
 ![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/FigRes1.png)
 
-### 4) Place fields and Grid fields simulation
+### 4) Place fields and Grid fields simulation in environment B
 ![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/FigRes2.png)
 
-### 5) The agent learn to perform a spatial decision task between 8 choice arms
+### 5) The agent learn to perform a spatial decision task between 8 choice arms in environment C
 ![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/behavior.gif)
 
-### 6) Theta sequences at decision point represent alternative future paths
+### 6) Theta sequences at decision point represent alternative future paths in environment C
 ![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/theta_part.gif)
 
-### 7) SWR sequences at reward location represent the path that led the agent to reward in backward order
+### 7) SWR sequences at reward location represent the path that led the agent to reward in backward order in environment C
 ![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/swr.gif)
