@@ -56,6 +56,8 @@ maze environment. At the bottom it is represented the original environmental sha
 represented the environmental shape adapted for the implementation. A starting arm of 17 squared 
 discrete states is connected with other eight choice arms of 11 squared discrete states. Each choice 
 arm holds a feeder square. One arm for each episode holds a reward in its feeder square*
+
+
 ![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/be08525100d42461006141ef5b34f7b6bfeb484e/images/environments_smaller.jpg)
 <br>
 
@@ -67,6 +69,8 @@ environment has 30 states. (C) Normalized activity of the simulated place cell t
 function of the 30 environmental locations. In red is shown the random walk policy agent. In Blue is 
 shown the directional policy agent. (D) Real hippocampal neuron activity recorded during the first lap 
 (red) and the last lap (blue) of a directional running task. Image taken from (Mehta et al., 2000).*
+
+
 ![alt-text](https://github.com/FrnRmn/hippocampal_sequences/blob/5ee61941df4e59138f36a347918cf26c31ebd2b3/images/FigRes1.png)
 <br>
 
